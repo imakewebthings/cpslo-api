@@ -1,0 +1,32 @@
+{
+  "name": "cpslo-api",
+  "version": "0.0.0",
+  "description": "Thin API server on top of the Cal Poly catalog",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "testem ci",
+    "tdd": "testem"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:imakewebthings/cpslo-api.git"
+  },
+  "author": "Caleb Troughton <caleb@imakewebthings.com> (http://imakewebthings.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imakewebthings/cpslo-api/issues"
+  },
+  "homepage": "https://github.com/imakewebthings/cpslo-api",
+  "devDependencies": {
+    "supertest": "~0.9.0",
+    "mocha": "~1.17.1",
+    "testem": "~0.6.6"
+  },
+  "dependencies": {
+    "express": "~3.4.8",
+    "nodemon": "~1.0.14",
+    "cpslo-catalog": "0.0.2",
+    "nconf": "~0.6.9"
+  }
+}
